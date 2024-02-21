@@ -23,7 +23,3 @@ This repository contains a simple Todo application built using TypeScript. The a
 3. Start adding, editing, and managing your tasks using the intuitive interface.
 
 Feel free to explore the codebase, contribute, or use it as a reference for your own projects!
-
----
-
-This description provides a brief overview of the project, highlighting its features, technologies, and how to get started with using the application. Adjust the description as needed to reflect the specific functionalities and details of your Todo application.
