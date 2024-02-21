@@ -1,9 +1,5 @@
 # TODO-App-Using-Typescript
 
-GitHub Description for Simple Todo Application:
-
----
-
 **Title**: Simple Todo Application
 
 **Description**:
