@@ -1,25 +1,24 @@
-# TODO-App-Using-Typescript
+# New Project
 
-**Title**: Simple Todo Application
+> ✨ Bootstrapped with Create Snowpack App (CSA).
 
-**Description**:
+## Available Scripts
 
-This repository contains a simple Todo application built using TypeScript. The application allows users to create, edit, and delete tasks in a user-friendly interface.
+### npm start
 
-**Features**:
-- **Task Management**: Users can add new tasks, mark tasks as completed, edit existing tasks, and delete tasks.
-- **User Interface**: The application provides an intuitive user interface for managing tasks, with clear options for adding, editing, and removing tasks.
-- **TypeScript**: The entire application is written in TypeScript, providing type safety and improved code organization.
-- **Local Storage**: Tasks are stored locally using browser's local storage, ensuring persistence of tasks across sessions.
+Runs the app in the development mode.
+Open http://localhost:8080 to view it in the browser.
 
-**Technologies**:
-- **TypeScript**: Used for writing the logic and structure of the application, providing static typing and improved code quality.
-- **HTML/CSS**: Used for creating the user interface and styling elements.
-- **JavaScript DOM Manipulation**: Used for interacting with the DOM to dynamically update the UI based on user actions.
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-**Getting Started**:
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Start adding, editing, and managing your tasks using the intuitive interface.
+### npm run build
 
-Feel free to explore the codebase, contribute, or use it as a reference for your own projects!
+Builds a static copy of your site to the `build/` folder.
+Your app is ready to be deployed!
+
+**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+
+### Q: What about Eject?
+
+No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.

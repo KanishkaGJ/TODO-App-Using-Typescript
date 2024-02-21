@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Project</title>
+    <script src="../dist/index.js" type="module"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            width: 250px;
+            margin-right: 8px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            border-radius: 4px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 300px;
+        }
+        li {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 50px;
+            margin-bottom: 20px;
+            font-variant: small-caps;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Typescript Task Manager</h1>
+    <div class="container">  
+        <form id="form">
+            <input type="text" id="inputBox" placeholder="Enter a task...">
+            <button>Add</button>
+        </form>
+    </div> 
+    <div class="container">
+        <h2>Tasks:</h2>
+        <ul id="list"></ul>
+    </div> 
+</body>
+</html>
